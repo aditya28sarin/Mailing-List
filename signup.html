@@ -10,6 +10,8 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=East+Sea+Dokdo&family=Roboto+Mono&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -46,21 +48,21 @@
   <body class="text-center">
       <!-- action is the location to where we are submitting the info, so that server can pick it up from there  -->
     <form action="/" class="form-signin" method="POST" >
-  <img class="mb-4" src="images/logo.PNG" alt="" width="250" height="250">
+  <img class="mb-4" src="images/img2.PNG" alt="" width="250" height="250">
   <br> <br>
   <h1 class="h3 mb-3 font-weight-normal">Signup to my Newsletter!</h1>
   <br>
   <label for="inputEmail" class="sr-only">Email address</label>
-  <input type="text" class="form-control" placeholder="First Name" required autofocus name="firstName">
+  <input  autocomplete="off" type="text" class="form-control" placeholder="First Name" required autofocus name="firstName"   >
   <br>
-  <input type="text" class="form-control" placeholder="Second Name" required name="lastName">
+  <input autocomplete="off" type="text" class="form-control" placeholder="Second Name" required name="lastName"   >
   <br>
-  <input type="email"  name="email" id="inputPassword" class="form-control" placeholder="Email" required>
+  <input  autocomplete="off" type="email"  name="email" id="inputPassword" class="form-control" placeholder="Email" required  >
   <br>
   
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+  <button class="btn btn-warning" type="submit">Sign Up</button>
   <br>
-  <p class="mt-5 mb-3 text-muted">The Technomaniac 2020</p>
+  <p class="mt-5 mb-3 text-muted">Aditya Sairn © 2020</p>
 </form>
 </body>
 </html>

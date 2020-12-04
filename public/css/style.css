@@ -1,7 +1,7 @@
-html, body {
+/* html, body {
     height: 100%;
   }
-  
+   */
   body {
     display: -ms-flexbox;
     display: flex;
@@ -9,9 +9,30 @@ html, body {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #f5f5f5;
+    background-color: #393e46;
   }
   
+  .lead{
+    color:wheat;
+    font-family: Do Hyeon;
+  }
+  
+  .h3{
+    color:wheat;
+    font-family: Do Hyeon;
+  }
+  .jumbotron{
+    background-color: #393e46;
+    width: 100%;
+    margin-top: 0;
+  }
+
+
+  
+.success-body{
+  background-color: #e8e8e8;
+}
+
   .form-signin {
     width: 100%;
     max-width: 330px;
@@ -41,3 +62,10 @@ html, body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+
+    .btn{
+      font-family:  Do Hyeon;
+      letter-spacing: 5px;
+      width: 30rem;
+      margin-bottom: 2rem;
+    }
